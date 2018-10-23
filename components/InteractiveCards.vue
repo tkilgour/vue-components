@@ -57,6 +57,9 @@ export default {
 <style>
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:600,400");
 .card-wpr {
+  position: relative;
+  min-width: 240px;
+  min-height: 150px;
   font-family: "Open Sans", Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -65,8 +68,8 @@ export default {
 .card {
   position: absolute;
   z-index: 0;
-  width: 240px;
-  height: 150px;
+  width: 100%;
+  height: 100%;
   background: #fff;
   box-shadow: -4px 6px 16px 4px rgba(0, 0, 0, 0.1);
   border-radius: 3px;
